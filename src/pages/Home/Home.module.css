@@ -316,7 +316,7 @@
 }
 
 .modal .descriptionDiv, .modal .probDiv, .modal .skillsDiv {
-    height: 25rem;
+    height: 100%;
     width: 100%;
     background-color: rgb(65, 41, 96, 0.5);
     padding: 1rem;
@@ -412,6 +412,7 @@
     .modal {
         display: flex;
         margin: auto;
+        flex-wrap: wrap;
     }
 
     .modalAll {
