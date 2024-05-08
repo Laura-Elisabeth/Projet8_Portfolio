@@ -13,11 +13,11 @@ const customStyles = {
       bottom: 'auto',
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
-      backgroundColor: 'rgb(245,209,16, 0.6)',
+      backgroundColor: 'rgb(245,209,16, 0.8)',
       border: 'none',
       borderRadius: '20px',
-      width: '35rem',
-      height: '20rem',
+      width: '60%',
+      height: '60%',
       fontFamily: '"Gill Sans", sans-serif;'
     },
 };
@@ -59,12 +59,14 @@ function Banner({picture}) {
             style={customStyles}
             contentLabel="Example Modal"
             >
-                <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2>
-                <ul>
-                    <li>Je suis développeuse web Full Stack, JavaScript, React et Express !</li>
-                    <li>J'ai également des compétences en HTML et CSS, ce site vous en donne un bref aperçu.</li>
-                    <li>Vous pourrez trouver dans la section Projets les liens vers mes repositories GitHub.</li>
-                </ul>
+                <div className={styles.modalAll}>
+                    <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Bonjour !</h2>
+                    <div className={styles.presentationList}>
+                        <p>Je suis développeuse web Full Stack, JavaScript, React et Express !</p>
+                        <p>J'ai également des compétences en HTML et CSS, ce site vous en donne un bref aperçu.</p>
+                        <p>Vous pourrez trouver dans la section Projets les liens vers mes repositories GitHub.</p>
+                    </div>
+                </div>
             </Modal>
             <Modal
             isOpen={modalIsOpen2}

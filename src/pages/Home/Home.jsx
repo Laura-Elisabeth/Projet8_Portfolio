@@ -21,8 +21,8 @@ const customStyles = {
     backgroundColor: 'rgb(242, 206, 206, 0.6)',
     border: 'none',
     borderRadius: '20px',
-    width: '55rem',
-    height: '40rem',
+    width: '90%',
+    height: '60%',
   },
 };
 
@@ -55,7 +55,8 @@ function Home() {
       subtitle.style.color = 'white';
       subtitle.style.fontFamily = 'font-family: "Gill Sans", sans-serif';
       subtitle.style.textShadow = "1px 1px 2px white, 0 0 1em grey, 0 0 0.2em white";
-      subtitle.style.fontSize = "45px";
+      subtitle.style.fontSize = "40px";
+      subtitle.style.texAlign = 'center';
   }
 
   function closeModal() {
@@ -94,17 +95,17 @@ function Home() {
                     </div>
                     <div className={styles.probDiv}>
                       <h3>Problématiques</h3>
-                      <ul>
-                        <li>Implémenter une interface responsive.</li>
-                        <li>Intégrer du contenu.</li>
-                        <li>Versionner un projet.</li>
-                      </ul>
+                      <div>
+                        <p>Implémenter une interface responsive.</p>
+                        <p>Intégrer du contenu.</p>
+                        <p>Versionner un projet.</p>
+                      </div>
                       <h3>Solutions</h3>
-                      <ul>
-                        <li>HTML, CSS, media queries.</li>
-                        <li>Suivi d'une maquette Figma.</li>
-                        <li>Git et GitHub.</li>
-                      </ul>
+                      <div>
+                        <p>HTML, CSS, media queries.</p>
+                        <p>Suivi d'une maquette Figma.</p>
+                        <p>Git et GitHub.</p>
+                      </div>
                     </div>
                     <div className={styles.skillsDiv}>
                       <h3>Compétences</h3>
@@ -161,17 +162,17 @@ function Home() {
                     </div>
                     <div className={styles.probDiv}>
                       <h3>Problématiques</h3>
-                      <ul>
-                        <li>Sauvegarder des données.</li>
-                        <li>Ajouter des éléments dans le DOM.</li>
-                        <li>Intéragir avec des formulaires.</li>
-                      </ul>
+                      <div>
+                        <p>Sauvegarder des données.</p>
+                        <p>Ajouter des éléments dans le DOM.</p>
+                        <p>Intéragir avec des formulaires.</p>
+                      </div>
                       <h3>Solutions</h3>
-                      <ul>
-                        <li>API HTTP.</li>
-                        <li>Méthode createElement.</li>
-                        <li>Utilisation des objets FormData.</li>
-                      </ul>
+                      <div>
+                        <p>API HTTP.</p>
+                        <p>Méthode createElement.</p>
+                        <p>Utilisation des objets FormData.</p>
+                      </div>
                     </div>
                     <div className={styles.skillsDiv}>
                       <h3>Compétences</h3>
@@ -223,17 +224,17 @@ function Home() {
                     </div>
                     <div className={styles.probDiv}>
                       <h3>Problématiques</h3>
-                      <ul>
-                        <li>Configurer la navigation entre les pages.</li>
-                        <li>Développer les éléments</li>
-                        <li>Écrire du style de manière optimale.</li>
-                      </ul>
+                      <div>
+                        <p>Configurer la navigation entre les pages.</p>
+                        <p>Développer les éléments</p>
+                        <p>Écrire du style de manière optimale.</p>
+                      </div>
                       <h3>Solutions</h3>
-                      <ul>
-                        <li>React Router</li>
-                        <li>Composants React.</li>
-                        <li>Incorporation de Sass.</li>
-                      </ul>
+                      <div>
+                        <p>React Router</p>
+                        <p>Composants React.</p>
+                        <p>Incorporation de Sass.</p>
+                      </div>
                     </div>
                     <div className={styles.skillsDiv}>
                       <h3>Compétences</h3>
@@ -285,17 +286,17 @@ function Home() {
                     </div>
                     <div className={styles.probDiv}>
                       <h3>Problématiques</h3>
-                      <ul>
-                        <li>Manipuler les éléments du code.</li>
-                        <li>Stocker les données.</li>
-                        <li>Sécuriser l'application.</li>
-                      </ul>
+                      <div>
+                        <p>Manipuler les éléments du code.</p>
+                        <p>Stocker les données.</p>
+                        <p>Sécuriser l'application.</p>
+                      </div>
                       <h3>Solutions</h3>
-                      <ul>
-                        <li>Opérations CRUD.</li>
-                        <li>MongoDB, Mongoose.</li>
-                        <li>Dotenv, bcrypt, JST.</li>
-                      </ul>
+                      <div>
+                        <p>Opérations CRUD.</p>
+                        <p>MongoDB, Mongoose.</p>
+                        <p>Dotenv, bcrypt, JST.</p>
+                      </div>
                     </div>
                     <div className={styles.skillsDiv}>
                       <h3>Compétences</h3>

@@ -225,14 +225,11 @@
     background-color: rgb(245, 232, 232, 1);
     height: 12rem;
     height: auto;
+    position: relative;
 }
 
 .aboutMe img {
-    width: 150px;
-    border-radius: 100px;
-    position: absolute;
-    top: -60px;
-    left: -200px;
+    display: none;
 }
 
 .aboutMe h2 {
@@ -413,7 +410,8 @@
     }
 
     .modal {
-        width: 0rem;
+        display: flex;
+        margin: auto;
     }
 
     .modalAll {
@@ -422,5 +420,50 @@
         flex-wrap: wrap;
         gap: 2rem;
         justify-content: center;
+    }
+
+    .modal .descriptionDiv, .modal .probDiv, .modal .skillsDiv {
+        height: 100%;
+        width: 8rem;
+        background-color: rgb(65, 41, 96, 0.5);
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    .modal .descriptionDiv h3, .modal .probDiv h3, .modal .skillsDiv h3 {
+        height: 3rem;
+        padding: 1rem;
+        border-radius: 10px;
+        background-color: rgb(65, 41, 96, 1);
+        text-align: center;
+        align-content: center;
+        border-bottom: 1px solid rgb(65, 41, 96, 1);
+        color: #FFFFFF;
+        font-size: smaller;
+    }
+
+    .modal .descriptionDiv div, .modal .probDiv div, .modal .skillsDiv div {
+        list-style: none;
+        align-items: center;
+    }
+
+    .modal .modalAll img {
+        width: 80%;
+    }
+
+    .skillTag {
+        background-color: whitesmoke;
+        border-radius: 30px;
+        padding: 0 1rem 0 1rem;
+        align-content: center;
+        padding: 0.5rem;
+    }
+
+    .modal .titleButton {
+        gap: 1rem;
+    }
+
+    .modal .titleButton h2 {
+        font-size: 100px;
     }
 }
