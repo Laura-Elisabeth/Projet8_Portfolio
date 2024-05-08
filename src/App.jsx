@@ -12,7 +12,6 @@ function App() {
       <div>
         <Header/>
         <Routes>
-          <Route path='/Projet8_Portfolio_front' element={<Home/>} />
           <Route index element={<Home />} />
         </Routes>
         <Footer />
