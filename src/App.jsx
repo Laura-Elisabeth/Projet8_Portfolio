@@ -12,7 +12,7 @@ function App() {
       <div>
         <Header/>
         <Routes>
-          <Route path='/' element={<Home/>} />
+          <Route path='/Projet8_Portfolio_front' element={<Home/>} />
         </Routes>
         <Footer />
       </div>
