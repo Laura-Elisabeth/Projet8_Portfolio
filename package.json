@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Laura-Elisabeth.github.io/",
+  "homepage": "https://Laura-Elisabeth.github.io/Projet8_Portfolio_front",
   "proxy": "http://localhost:4200",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
