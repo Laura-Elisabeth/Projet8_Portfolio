@@ -68,24 +68,6 @@ function Banner({picture}) {
                     </div>
                 </div>
             </Modal>
-            <Modal
-            isOpen={modalIsOpen2}
-            onAfterOpen={afterOpenModal}
-            onRequestClose={closeModal2}
-            style={customStyles}
-            contentLabel="Example Modal"
-            >
-                <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Hello</h2>
-                <button onClick={closeModal2}>close</button>
-                <div>I am not a modal</div>
-                <form>
-                    <input />
-                    <button>tab navigation</button>
-                    <button>stays</button>
-                    <button>inside</button>
-                    <button>the modal</button>
-                </form>
-            </Modal>
             <div className={styles.Text}>
                 <h1>Laura-Elisabeth Dos Reis</h1>
                 <p>
@@ -98,13 +80,6 @@ function Banner({picture}) {
                         <div className={styles.DevButton}>
                             <p>
                                 Développement web 
-                            </p>
-                        </div>
-                    </button>
-                    <button className={styles.Domaine} onClick={openModal2}>
-                        <div className={styles.SysButton}>
-                            <p>
-                                Administration Systèmes, Réseaux et Cybersécurité
                             </p>
                         </div>
                     </button>

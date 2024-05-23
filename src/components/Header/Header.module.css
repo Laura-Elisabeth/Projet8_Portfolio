@@ -27,11 +27,11 @@
     align-items: center;
     padding-right: 0;
     justify-content: flex-end;
-    padding-right: 2em;
 }
 
 .Header ul {
     display: flex;
+    padding-left: 0;
 }
 
 .Header ul li {
@@ -96,9 +96,13 @@
         height: 3.5em;
     }
  
+    .Nav {
+        justify-content: center;
+    }
     
     .Header ul li {
-        font-size: 15px;
+        font-size: 12px;
+        flex-direction: column;
     }
 
 }

@@ -12,8 +12,7 @@ function App() {
       <div>
         <Header/>
         <Routes>
-          <Route path='/Projet8_Portfolio_front' element={<Home/>} />
-          <Route index element={<Home />} />
+          <Route path='/' element={<Home/>} />
         </Routes>
         <Footer />
       </div>
