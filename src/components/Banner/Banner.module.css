@@ -9,17 +9,17 @@
 .Text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 100%;
     margin: 1rem;
     border-radius: 10px;
     text-align: left;
-    margin-left: 8rem;
     color: rgb(65, 41, 96, 1)
 }
 
 .Banner h1 {
     font-family: "Gill Sans", sans-serif;
-    font-size: 40px;
+    font-size: 10rem;
     font-weight: normal ;
     text-shadow: 1px 1px 2px grey, 0 0 1.5em grey, 0 0 0.2em white;
 }

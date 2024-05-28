@@ -15,7 +15,7 @@ function Header({ user, setUser }) {
             </div>
             <div className={styles.Nav}>
               <ul>
-                <li><NavLink to="/" end className={({ isActive }) => (isActive ? styles.activeLink : undefined)}>Accueil</NavLink></li>
+                <li><NavLink to="/Projet8_Portfolio_front" end className={({ isActive }) => (isActive ? styles.activeLink : undefined)}>Accueil</NavLink></li>
                 <li><a href="#about-me">Présentation</a></li>
                 <li><a href="#skills">Compétences</a></li>
                 <li><a href="#projects">Mes Projets</a></li>
