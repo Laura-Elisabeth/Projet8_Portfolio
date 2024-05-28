@@ -327,7 +327,7 @@ function Home() {
                   </div>
                 </div>
             </Modal>
-        <div>
+        <div id="home">
           <Banner />
         </div>
         <div className={styles.aboutMe} id="about-me">
@@ -413,9 +413,6 @@ function Home() {
           </p>
         </div>
 
-        <a href="#header" className={styles.goUp}>
-          <img src={arrow} alt="flèche vers le haut" />
-        </a>
       </div>
 
     );

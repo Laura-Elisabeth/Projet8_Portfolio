@@ -59,7 +59,7 @@ function Banner({picture}) {
             style={customStyles}
             contentLabel="Example Modal"
             >
-                <div className={styles.modalAll}>
+                <div className={styles.modalAll} id="home">
                     <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Bonjour !</h2>
                     <div className={styles.presentationList}>
                         <p>Je suis développeuse web Full Stack, JavaScript, React et Express !</p>

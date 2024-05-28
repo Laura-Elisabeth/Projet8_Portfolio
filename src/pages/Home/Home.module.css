@@ -97,7 +97,8 @@
     height: 25rem;
     background-color: bisque;
     border-radius: 20px;
-    position: relative;
+    position:static ;
+
 }
 
 .Booki {
@@ -153,7 +154,7 @@
 }
 
 .tags {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -161,9 +162,6 @@
     width: 10rem;
     height: 60%;
     border-radius: 0px 20px 0px 20px ;
-    position: absolute;
-    right: 0;
-    top: 0;
     font-weight: bolder;
     text-wrap: wrap;
     padding: 10px;
@@ -176,7 +174,7 @@
 }
 
 .tags2 {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -184,7 +182,6 @@
     width: 10rem;
     height: 4rem;
     border-radius: 0px 20px 0px 20px ;
-    position: absolute;
     left: 0;
     bottom: 0;
     font-weight: bolder;
@@ -225,7 +222,6 @@
     background-color: rgb(245, 232, 232, 1);
     height: 12rem;
     height: auto;
-    position: relative;
 }
 
 .aboutMe img {
@@ -243,8 +239,6 @@
     justify-content: center;
     gap: 1rem;
     margin: 1rem;
-    position: relative;
-
 }
 
 .modalAll {
