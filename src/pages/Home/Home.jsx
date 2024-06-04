@@ -16,13 +16,13 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    marginRight: '-50%',
+    margin: 'auto',
     transform: 'translate(-50%, -50%)',
     backgroundColor: 'rgb(242, 206, 206, 0.6)',
     border: 'none',
     borderRadius: '20px',
-    width: '90%',
     height: '60%',
+
   },
 };
 
