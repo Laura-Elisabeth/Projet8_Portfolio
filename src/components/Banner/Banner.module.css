@@ -126,7 +126,9 @@
 
 @media only screen and (max-width: 767px) {
 
-
+    .Banner {
+        margin-top: 14rem;
+    }
     .Banner h1 {
         font-size: 27px;
         text-shadow: none;
